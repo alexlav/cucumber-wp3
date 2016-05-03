@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNgSuite" duration-ms="70795" started-at="2016-02-01T13:39:31Z" finished-at="2016-02-01T13:40:41Z">
+    <groups>
+    </groups>
+    <test name="WebDriverFireFoxTests" duration-ms="16845" started-at="2016-02-01T13:39:31Z" finished-at="2016-02-01T13:39:47Z">
+      <class name="com.swql.myapp.WebDriverTest4.ExampleTestMaven41">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.swql.myapp.WebDriverTest4.ExampleTestMaven41@58ceff1]" name="setUp" is-config="true" duration-ms="14372" started-at="2016-02-01T14:39:31Z" finished-at="2016-02-01T14:39:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5034c75a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testExample1()[pri:0, instance:com.swql.myapp.WebDriverTest4.ExampleTestMaven41@58ceff1]" name="testExample1" duration-ms="342" started-at="2016-02-01T14:39:45Z" description="a test" finished-at="2016-02-01T14:39:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExample1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.swql.myapp.WebDriverTest4.ExampleTestMaven41@58ceff1]" name="tearDown" is-config="true" duration-ms="2111" started-at="2016-02-01T14:39:45Z" finished-at="2016-02-01T14:39:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swql.myapp.WebDriverTest4.ExampleTestMaven41 -->
+    </test> <!-- WebDriverFireFoxTests -->
+    <test name="WebDriverChromeTests" duration-ms="23506" started-at="2016-02-01T13:39:48Z" finished-at="2016-02-01T13:40:11Z">
+      <class name="com.swql.myapp.WebDriverTest4.ExampleTestMaven41">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.swql.myapp.WebDriverTest4.ExampleTestMaven41@7a0ac6e3]" name="setUp" is-config="true" duration-ms="9378" started-at="2016-02-01T14:39:48Z" finished-at="2016-02-01T14:39:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@396a51ab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testExample1()[pri:0, instance:com.swql.myapp.WebDriverTest4.ExampleTestMaven41@7a0ac6e3]" name="testExample1" duration-ms="12085" started-at="2016-02-01T14:39:57Z" description="a test" finished-at="2016-02-01T14:40:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExample1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.swql.myapp.WebDriverTest4.ExampleTestMaven41@7a0ac6e3]" name="tearDown" is-config="true" duration-ms="2039" started-at="2016-02-01T14:40:09Z" finished-at="2016-02-01T14:40:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swql.myapp.WebDriverTest4.ExampleTestMaven41 -->
+    </test> <!-- WebDriverChromeTests -->
+    <test name="WebDriverIETests" duration-ms="14032" started-at="2016-02-01T13:40:11Z" finished-at="2016-02-01T13:40:25Z">
+      <class name="com.swql.myapp.WebDriverTest4.ExampleTestMaven41">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.swql.myapp.WebDriverTest4.ExampleTestMaven41@506e6d5e]" name="setUp" is-config="true" duration-ms="9004" started-at="2016-02-01T14:40:11Z" finished-at="2016-02-01T14:40:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@51081592]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testExample1()[pri:0, instance:com.swql.myapp.WebDriverTest4.ExampleTestMaven41@506e6d5e]" name="testExample1" duration-ms="3642" started-at="2016-02-01T14:40:20Z" description="a test" finished-at="2016-02-01T14:40:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExample1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.swql.myapp.WebDriverTest4.ExampleTestMaven41@506e6d5e]" name="tearDown" is-config="true" duration-ms="1383" started-at="2016-02-01T14:40:24Z" finished-at="2016-02-01T14:40:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swql.myapp.WebDriverTest4.ExampleTestMaven41 -->
+    </test> <!-- WebDriverIETests -->
+    <test name="WebDriverSafariTests" duration-ms="16247" started-at="2016-02-01T13:40:25Z" finished-at="2016-02-01T13:40:41Z">
+      <class name="com.swql.myapp.WebDriverTest4.ExampleTestMaven41">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.swql.myapp.WebDriverTest4.ExampleTestMaven41@35f983a6]" name="setUp" is-config="true" duration-ms="15765" started-at="2016-02-01T14:40:25Z" finished-at="2016-02-01T14:40:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7f9a81e8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testExample1()[pri:0, instance:com.swql.myapp.WebDriverTest4.ExampleTestMaven41@35f983a6]" name="testExample1" duration-ms="209" started-at="2016-02-01T14:40:41Z" description="a test" finished-at="2016-02-01T14:40:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExample1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.swql.myapp.WebDriverTest4.ExampleTestMaven41@35f983a6]" name="tearDown" is-config="true" duration-ms="265" started-at="2016-02-01T14:40:41Z" finished-at="2016-02-01T14:40:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.swql.myapp.WebDriverTest4.ExampleTestMaven41 -->
+    </test> <!-- WebDriverSafariTests -->
+  </suite> <!-- TestNgSuite -->
+</testng-results>

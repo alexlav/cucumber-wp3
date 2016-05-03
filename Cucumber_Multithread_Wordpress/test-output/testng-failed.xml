@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNgSuite]" parallel="classes">
+  <parameter name="browser" value="safari"/>
+  <parameter name="ieDriverPath" value="C:\\Selenium\\Selenium_Browser_Drivers\\IE\\IEDriverServer.exe"/>
+  <parameter name="chromeDriverPath" value="C:\\Selenium\\Selenium_Browser_Drivers\\Chrome\\chromedriver.exe"/>
+  <parameter name="url" value="http://www.starbucks.com"/>
+  <test verbose="2" name="WebDriverFireFoxTests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.swql.myapp.WebDriverTest4.ExampleTestMaven41">
+        <methods>
+          <include name="testExample1"/>
+        </methods>
+      </class> <!-- com.swql.myapp.WebDriverTest4.ExampleTestMaven41 -->
+    </classes>
+  </test> <!-- WebDriverFireFoxTests -->
+  <test verbose="2" name="WebDriverChromeTests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.swql.myapp.WebDriverTest4.ExampleTestMaven41">
+        <methods>
+          <include name="testExample1"/>
+        </methods>
+      </class> <!-- com.swql.myapp.WebDriverTest4.ExampleTestMaven41 -->
+    </classes>
+  </test> <!-- WebDriverChromeTests -->
+  <test verbose="2" name="WebDriverIETests">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="com.swql.myapp.WebDriverTest4.ExampleTestMaven41">
+        <methods>
+          <include name="testExample1"/>
+        </methods>
+      </class> <!-- com.swql.myapp.WebDriverTest4.ExampleTestMaven41 -->
+    </classes>
+  </test> <!-- WebDriverIETests -->
+  <test verbose="2" name="WebDriverSafariTests">
+    <parameter name="browser" value="safari"/>
+    <classes>
+      <class name="com.swql.myapp.WebDriverTest4.ExampleTestMaven41">
+        <methods>
+          <include name="testExample1"/>
+        </methods>
+      </class> <!-- com.swql.myapp.WebDriverTest4.ExampleTestMaven41 -->
+    </classes>
+  </test> <!-- WebDriverSafariTests -->
+</suite> <!-- Failed suite [TestNgSuite] -->
